@@ -116,7 +116,7 @@ export default async function ProjectDetailPage({ params }: { params: { slug: st
       {/* Editorial Gallery */}
       <section className="pb-32">
         <div className="flex flex-col gap-12 md:gap-32">
-          {project.images.map((img, idx) => {
+          {project.images.map((img: string, idx: number) => {
             // Create asymmetrical layouts based on index
             if (idx === 0) {
               return (
