@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="limeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ABC81D"/>
+      <stop offset="100%" stop-color="#8EA619"/>
+    </linearGradient>
+    <linearGradient id="slateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3C4F5A"/>
+      <stop offset="100%" stop-color="#24343E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- GDA MONOGRAM ICON -->
+  <g class="gda-icon" id="gda-mark" transform="translate(60, 15)">
+    <!-- 'G' Letter -->
+    <path d="M 230,85 C 220,40 170,25 120,25 C 50,25 10,70 10,150 C 10,230 55,275 130,275 C 195,275 230,240 230,195 L 125,195 C 115,195 110,190 110,180 L 110,165 C 110,155 115,150 125,150 L 250,150 C 262,150 268,158 268,170 C 268,255 200,310 120,310 C 25,310 -30,240 -30,150 C -30,60 30,-10 130,-10 C 215,-10 270,35 272,85 Z" 
+          fill="url(#limeGrad)" stroke="#1B2830" stroke-width="4" stroke-linejoin="round" transform="translate(40, 20)"/>
+
+    <!-- 'D' Letter -->
+    <path d="M 310,10 L 375,10 C 445,10 495,65 495,170 C 495,275 445,330 375,330 L 310,330 Z M 352,50 L 352,290 L 375,290 C 420,290 452,250 452,170 C 452,90 420,50 375,50 Z" 
+          fill="url(#limeGrad)" stroke="#1B2830" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- Architectural Scaffolding / Truss Wireframe Lines -->
+    <g class="scaffolding-lines" stroke="#25353F" stroke-width="6" stroke-linecap="round">
+      <line x1="420" y1="35" x2="520" y2="295" stroke-width="6"/>
+      <line x1="510" y1="5" x2="445" y2="280" stroke-width="6"/>
+      <line x1="465" y1="-10" x2="535" y2="270" stroke-width="6"/>
+      <line x1="435" y1="90" x2="495" y2="90" stroke-width="4"/>
+      <line x1="450" y1="170" x2="520" y2="170" stroke-width="4"/>
+    </g>
+
+    <!-- 'A' Letter -->
+    <path d="M 470,80 L 530,225 L 485,340 L 535,340 L 565,265 L 610,265 L 635,340 L 685,340 L 585,80 Z M 575,155 L 598,225 L 550,225 Z" 
+          fill="url(#slateGrad)" stroke="#172228" stroke-width="3"/>
+  </g>
+
+  <!-- BANNER BAR : GOLBY DIOP ARCHITECT -->
+  <g class="gda-banner" transform="translate(10, 360)">
+    <!-- Dark slate badge behind GOLBY DIOP -->
+    <rect x="0" y="0" width="370" height="60" rx="4" fill="#35454F"/>
+    
+    <!-- Text GOLBY DIOP -->
+    <text x="185" y="44" font-family="'Syne', 'Outfit', 'Arial Black', sans-serif" font-weight="900" font-size="38" fill="#9EC817" text-anchor="middle" letter-spacing="1">GOLBY DIOP</text>
+
+    <!-- Text ARCHITECT -->
+    <text x="550" y="44" font-family="'Syne', 'Outfit', 'Arial Black', sans-serif" font-weight="900" font-size="42" fill="#35454F" text-anchor="middle" letter-spacing="3">ARCHITECT</text>
+  </g>
+
+  <!-- SUBTITLE : Service BTP l'objectif c'est l'etude la realisation et le suivi -->
+  <g class="gda-subtitle" transform="translate(10, 455)">
+    <text x="370" y="0" font-family="'Inter', 'Outfit', sans-serif" font-weight="700" font-size="20" fill="#35454F" text-anchor="middle" letter-spacing="0.5">
+      Service BTP l'objectif c'est l'etude la realisation et le suivi
+    </text>
+  </g>
+</svg>
